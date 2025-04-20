@@ -1,0 +1,89 @@
+body{
+    display:flex;
+    background:#121212;
+    color:white;
+    font-family: 'Segoe UI', sans-serif;
+    height:100%;
+    width:100%;
+}
+.body-class{
+    display:flex;
+    height:96vh;
+    width:100%
+}
+.sidebar{
+    background-color: #1e1e1e;
+    color:white;
+    width:250px;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+.sidebar p{
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+.sidebar ul{
+    list-style: none;
+    padding:0
+}
+.sidebar ul li{
+    margin: 15px 0;
+    cursor:pointer;
+    transition: 0.3s
+}
+.sidebar ul li:hover{
+    color:#00b894
+}
+.main-content{
+    flex:1;
+    padding:40px;
+    background-color:#181818;
+    background-image: url('https://i.imgur.com/zd9aFV7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    position: relative;
+}
+.main-content h1{
+    margin-top:0;
+    text-align: center;
+    font-size: 32px;
+}
+.input-holder{
+    position:absolute;
+    bottom:40px;
+    left:55%;
+    transform:translateX(-50%);
+    width:500px;
+}
+input{
+    padding:10px;
+    width:60%;
+    font-size:16px;
+    border:1px solid #333;
+    border-radius:20px;
+    background: #2a2a2a;
+    color:#fff;
+    margin:0 auto;
+    margin-top:20px
+}
+button{
+    padding:10px 20px;
+    margin:20px auto;
+    background-color: #4e4e4e;
+    color:#ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    transition:0.3s
+}
+button:hover{
+    background-color: #a2a6a5;
+}
+#válasz{
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
